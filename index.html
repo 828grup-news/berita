@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>828Grup News | Informasi Cepat & Terpercaya</title>
+
+    <style>
+        :root {
+            --primary: #0d47a1;
+            --secondary: #1976d2;
+            --dark: #1a1a1a;
+            --light: #f4f6f8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: #fff;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        nav {
+            background: #fff;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .cta {
+            background: var(--primary);
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .cta a {
+            display: inline-block;
+            margin-top: 20px;
+            background: #fff;
+            color: var(--primary);
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #0b2c5f;
+            color: #ccc;
+            text-align: center;
+            padding: 25px 15px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#kategori">Kategori</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <header id="beranda">
+        <h1>828Grup News</h1>
+        <p>Sumber berita cepat, akurat, dan terpercaya seputar nasional, daerah, dan peristiwa terkini.</p>
+    </header>
+
+    <section id="tentang">
+        <h2>Tentang Kami</h2>
+        <p>
+            <strong>828Grup News</strong> adalah portal berita yang menyajikan informasi aktual,
+            tajam, dan berimbang. Kami berkomitmen menghadirkan berita yang dapat dipercaya
+            oleh masyarakat luas.
+        </p>
+    </section>
+
+    <section id="kategori">
+        <h2>Kategori Berita</h2>
+        <div class="features">
+            <div class="card">
+                <h3>Berita Nasional</h3>
+                <p>Informasi penting dari seluruh Indonesia secara cepat dan akurat.</p>
+            </div>
+            <div class="card">
+                <h3>Daerah</h3>
+                <p>Kabar terkini dari berbagai wilayah dan komunitas lokal.</p>
+            </div>
+            <div class="card">
+                <h3>Ekonomi & Bisnis</h3>
+                <p>Update ekonomi, UMKM, dan dunia usaha.</p>
+            </div>
+            <div class="card">
+                <h3>Teknologi</h3>
+                <p>Perkembangan teknologi dan digital terkini.</p>
+            </div>
+            <div class="card">
+                <h3>Hukum & Kriminal</h3>
+                <p>Berita hukum, kriminal, dan investigasi.</p>
+            </div>
+            <div class="card">
+                <h3>Gaya Hidup</h3>
+                <p>Inspirasi, kesehatan, dan tren masyarakat.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta" id="kontak">
+        <h2>Ingin Berlangganan Berita Terbaru?</h2>
+        <p>Dapatkan update berita langsung dari 828Grup News.</p>
+        <a href="#">Hubungi Kami</a>
+    </section>
+
+    <footer>
+        <p>© 2026 828Grup News. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
